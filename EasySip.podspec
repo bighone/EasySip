@@ -136,6 +136,6 @@ Pod::Spec.new do |s|
   s.xcconfig = {
     'VALID_ARCHS' =>  'arm64 x86_64',
   }
-  s.dependency "liblinphone", '~> 3.99.7'
+  s.dependency "DTLinphoneLib", '~> 4.1-25-g07573a0'
 
 end
